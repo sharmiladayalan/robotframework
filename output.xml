@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.11.0 on win32)" generated="20221229 16:25:42.894" rpa="false" schemaversion="3">
+<suite id="s1" name="rahilshettyTest" source="c:\Users\pooja\OneDrive\Desktop\pythoncodes\robotframework1\Testcases\rahilshettyTest.robot">
+<test id="s1-t1" name="Radio button" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221229 16:25:43.807" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/dropdownsPractise/'.</msg>
+<status status="PASS" starttime="20221229 16:25:43.806" endtime="20221229 16:25:57.026"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221229 16:25:57.027" endtime="20221229 16:25:57.168"/>
+</kw>
+<kw name="Buttons_" library="rahulshetty">
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221229 16:26:00.171" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221229 16:25:57.170" endtime="20221229 16:26:00.172"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>//input[@id='ctl00_mainContent_rbtnl_Trip_1']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221229 16:26:00.174" level="INFO">Clicking button '//input[@id='ctl00_mainContent_rbtnl_Trip_1']'.</msg>
+<status status="PASS" starttime="20221229 16:26:00.173" endtime="20221229 16:26:00.315"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221229 16:26:03.318" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221229 16:26:00.316" endtime="20221229 16:26:03.318"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221229 16:26:06.321" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221229 16:26:03.319" endtime="20221229 16:26:06.322"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//input[@id='ctl00_mainContent_chk_friendsandfamily']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221229 16:26:06.324" level="INFO">Clicking element '//input[@id='ctl00_mainContent_chk_friendsandfamily']'.</msg>
+<status status="PASS" starttime="20221229 16:26:06.324" endtime="20221229 16:26:06.441"/>
+</kw>
+<status status="PASS" starttime="20221229 16:25:57.169" endtime="20221229 16:26:06.442"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>2seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20221229 16:26:06.444" endtime="20221229 16:26:06.445"/>
+</kw>
+<status status="PASS" starttime="20221229 16:25:43.797" endtime="20221229 16:26:06.458"/>
+</test>
+<status status="PASS" starttime="20221229 16:25:42.905" endtime="20221229 16:26:06.468"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="rahilshettyTest">rahilshettyTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
